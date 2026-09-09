@@ -1,0 +1,251 @@
+@font-face {
+   font-family: "DM Sans Variable Italic";
+   src: url("./assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf") format("truetype");
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "DM Sans Variable";
+   src: url("./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "DM Sans Medium";
+   src: url("./assets/fonts/static/DMSans-Medium.ttf") format("truetype");
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "DM Sans Italic";
+   src: url("./assets/fonts/static/DMSans-MediumItalic.ttf") format("truetype");
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "DM Sans";
+   src: url("./assets/fonts/static/DMSans-Regular.ttf") format("truetype");
+   font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px 100px;
+    background-color: hsl(255, 44%, 96%);
+    overflow: hidden;
+}
+
+div{
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.first{
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    font-family: "DM Sans Variable";
+    width: 30%;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    left: 33%;
+}
+
+.firsttext{
+    font-size: 35px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 12px;
+    line-height: 1;
+}
+.first>p{
+    font-size: 12px;
+}
+
+.p{
+    color: hsl(39, 100%, 71%);
+    font: inherit;
+}
+
+.first img{
+    width: 130px;
+}
+
+.second{
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    width: 14%;
+    height: 160px;
+    padding: 10px 30px 10px 15px;
+    font-family: "DM Sans Variable";
+    overflow: hidden;
+    position: relative;
+    left: 365px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.second img{
+    position: relative;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.third{
+    display: inline-block;
+    background-color: hsl(39, 100%, 71%);
+    width: 14%;
+    height: 160px;
+    padding: 15px 15px;
+    font-family: "DM Sans Variable";
+    overflow: hidden;  
+    position: relative;
+    left: 362px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.third img{
+    position: relative;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.fourth{
+    background-color: hsl(254, 88%, 90%);
+    width: 14%;
+    height: 395px;
+    padding: 25px 20px;
+    font-family: "DM Sans Variable";
+    overflow: hidden;  
+    position: relative;
+    left: 66%;
+    bottom: 429px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.fourth img{
+    position: relative;
+    width: 230px;
+    margin-top: 10px;
+}
+
+.fourth p{
+    font-size: 11px;
+    margin-top: 15px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+.fifth{
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    font-family: "DM Sans Variable";
+    width: 30.75%;
+    height: 150px;
+    padding: 12px;
+    position: relative;
+    left: 49.25%;
+    bottom: 423px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.fifth span{
+    position: relative;
+    top: 25px;
+}
+
+.fifth img{
+    width: 150px;
+    float: left;
+}
+
+.sixth{
+    display: inline-block;
+    background-color: hsl(0, 0%, 100%);
+    width: 14%;
+    height: 150px;
+    padding: 15px;
+    font-family: "DM Sans Variable";
+    overflow: hidden;
+    position: relative;
+    left: 378px;
+    bottom: 603px;
+    font-size: xx-large;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.sixth img{
+    position: relative;
+    width: 115px;
+    top: 20px;
+}
+
+.sixth p{
+    font-size: 11px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#last{
+    position: relative;
+    bottom: 764px;
+}
+
+.seventh{
+    background-color: hsl(31, 66%, 93%);
+    width: 14%;
+    height: 270.5px;
+    padding: 50px 20px;
+    font-family: "DM Sans Variable";
+    position: relative;
+    left: 16%;
+    bottom: 439px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.seventh img{
+    position: relative;
+    width: 115px;
+    top: 20px;
+}
+
+.eighth{
+    background-color: hsl(39, 100%, 71%);
+    width: 14%;
+    height: 270.5px;
+    padding: 17px;
+    font-family: "DM Sans Variable";
+    position: relative;
+    left: 16%;
+    bottom: 429px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.eighth img{
+    position: relative;
+    width: 135px;
+    top: 32px;
+}
