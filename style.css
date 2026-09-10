@@ -35,7 +35,7 @@
 }
 
 body{
-    padding: 20px 100px;
+    padding: 15px 100px;
     background-color: hsl(255, 44%, 96%);
     overflow: hidden;
 }
@@ -227,6 +227,10 @@ div{
     position: relative;
     width: 115px;
     top: 20px;
+}
+
+.seventh i{
+    color: hsl(256, 67%, 59%);
 }
 
 .eighth{
