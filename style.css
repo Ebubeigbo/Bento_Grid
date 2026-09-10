@@ -49,7 +49,7 @@ div{
     background-color: hsl(256, 67%, 59%);
     color: white;
     font-family: "DM Sans Variable";
-    width: 30%;
+    width: 29%;
     text-align: center;
     padding: 40px;
     position: relative;
@@ -76,6 +76,11 @@ div{
     width: 130px;
 }
 
+.fgrp{
+    position: relative;
+    bottom: 7px;
+}
+
 .second{
     display: inline-block;
     background-color: hsl(0, 0%, 100%);
@@ -85,7 +90,7 @@ div{
     font-family: "DM Sans Variable";
     overflow: hidden;
     position: relative;
-    left: 365px;
+    left: 368px;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -107,7 +112,7 @@ div{
     font-family: "DM Sans Variable";
     overflow: hidden;  
     position: relative;
-    left: 362px;
+    left: 355px;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
@@ -123,12 +128,12 @@ div{
 .fourth{
     background-color: hsl(254, 88%, 90%);
     width: 14%;
-    height: 395px;
+    height: 388px;
     padding: 25px 20px;
     font-family: "DM Sans Variable";
     overflow: hidden;  
     position: relative;
-    left: 66%;
+    left: 64.25%;
     bottom: 429px;
     font-size: 18px;
     font-weight: 600;
@@ -153,12 +158,12 @@ div{
     background-color: hsl(256, 67%, 59%);
     color: white;
     font-family: "DM Sans Variable";
-    width: 30.75%;
+    width: 30.05%;
     height: 150px;
     padding: 12px;
     position: relative;
-    left: 49.25%;
-    bottom: 423px;
+    left: 48.25%;
+    bottom: 424px;
     font-size: 26px;
     font-weight: 500;
     line-height: 1;
@@ -178,14 +183,14 @@ div{
 .sixth{
     display: inline-block;
     background-color: hsl(0, 0%, 100%);
-    width: 14%;
+    width: 13.55%;
     height: 150px;
     padding: 15px;
     font-family: "DM Sans Variable";
     overflow: hidden;
     position: relative;
-    left: 378px;
-    bottom: 603px;
+    left: 383px;
+    bottom: 604px;
     font-size: xx-large;
     line-height: 1;
     font-weight: 500;
@@ -211,12 +216,12 @@ div{
 .seventh{
     background-color: hsl(31, 66%, 93%);
     width: 14%;
-    height: 270.5px;
+    height: 267px;
     padding: 50px 20px;
     font-family: "DM Sans Variable";
     position: relative;
-    left: 16%;
-    bottom: 439px;
+    left: 16.5%;
+    bottom: 432.5px;
     font-size: 23px;
     font-weight: 600;
     line-height: 1;
@@ -236,12 +241,12 @@ div{
 .eighth{
     background-color: hsl(39, 100%, 71%);
     width: 14%;
-    height: 270.5px;
+    height: 267px;
     padding: 17px;
     font-family: "DM Sans Variable";
     position: relative;
-    left: 16%;
-    bottom: 429px;
+    left: 16.5%;
+    bottom: 422.5px;
     font-size: 23px;
     font-weight: 600;
     line-height: 1;
