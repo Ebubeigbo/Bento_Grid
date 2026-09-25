@@ -35,33 +35,29 @@
 }
 
 body{
-    overflow: hidden;
     padding: 15px 100px;
-    background-image: url(./assets/images/WhatsApp\ Image\ 2026-09-09\ at\ 10.17.59\ AM.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-
+    background-color: hsl(255, 44%, 96%);
 }
 
 #work{
-    background-color: hsl(255, 44%, 96%);
     padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    grid-template-rows: 200px 40px 110px 150px;
+    gap: 15px;
 }
 
 div{
     border-radius: 5px;
-    margin: 15px;
 }
 
 .first{
     background-color: hsl(256, 67%, 59%);
     color: white;
     font-family: "DM Sans Variable";
-    width: 29%;
     text-align: center;
     padding: 40px;
-    position: relative;
-    left: 33%;
+    grid-column: 2/ span 2;
 }
 
 .firsttext{
@@ -84,25 +80,17 @@ div{
     width: 130px;
 }
 
-.fgrp{
-    position: relative;
-    bottom: 7px;
-}
-
 .second{
     display: inline-block;
     background-color: hsl(0, 0%, 100%);
-    width: 14%;
-    height: 160px;
     padding: 10px 30px 10px 15px;
     font-family: "DM Sans Variable";
     overflow: hidden;
-    position: relative;
-    left: 368px;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1;
+    grid-row: span 2;
 }
 
 .second img{
@@ -114,17 +102,14 @@ div{
 .third{
     display: inline-block;
     background-color: hsl(39, 100%, 71%);
-    width: 14%;
-    height: 160px;
     padding: 15px 15px;
     font-family: "DM Sans Variable";
     overflow: hidden;  
-    position: relative;
-    left: 355px;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1;
+    grid-row: span 2;
 }
 
 .third img{
@@ -135,18 +120,16 @@ div{
 
 .fourth{
     background-color: hsl(254, 88%, 90%);
-    width: 14%;
-    height: 388px;
     padding: 25px 20px;
     font-family: "DM Sans Variable";
     overflow: hidden;  
-    position: relative;
-    left: 64.25%;
-    bottom: 429px;
     font-size: 18px;
     font-weight: 600;
     line-height: 1;
     letter-spacing: -1px;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
 .fourth img{
@@ -166,42 +149,31 @@ div{
     background-color: hsl(256, 67%, 59%);
     color: white;
     font-family: "DM Sans Variable";
-    width: 30.05%;
-    height: 150px;
-    padding: 12px;
-    position: relative;
-    left: 48.25%;
-    bottom: 424px;
-    font-size: 26px;
+    padding: 15px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 1;
     letter-spacing: -1px;
-}
-
-.fifth span{
-    position: relative;
-    top: 25px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: flex;
+    align-items: center;
 }
 
 .fifth img{
     width: 150px;
-    float: left;
 }
 
 .sixth{
     display: inline-block;
     background-color: hsl(0, 0%, 100%);
-    width: 13.55%;
-    height: 150px;
     padding: 15px;
     font-family: "DM Sans Variable";
     overflow: hidden;
-    position: relative;
-    left: 383px;
-    bottom: 604px;
     font-size: xx-large;
     line-height: 1;
     font-weight: 500;
+    grid-column-start: 2;
 }
 
 .sixth img{
@@ -216,24 +188,16 @@ div{
     font-weight: 500;
 }
 
-#last{
-    position: relative;
-    bottom: 764px;
-}
-
 .seventh{
     background-color: hsl(31, 66%, 93%);
-    width: 14%;
-    height: 267px;
     padding: 50px 20px;
     font-family: "DM Sans Variable";
-    position: relative;
-    left: 16.5%;
-    bottom: 432.5px;
     font-size: 23px;
     font-weight: 600;
     line-height: 1;
     letter-spacing: -2px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
 }
 
 .seventh img{
@@ -248,17 +212,14 @@ div{
 
 .eighth{
     background-color: hsl(39, 100%, 71%);
-    width: 14%;
-    height: 267px;
     padding: 17px;
     font-family: "DM Sans Variable";
-    position: relative;
-    left: 16.5%;
-    bottom: 422.5px;
     font-size: 23px;
     font-weight: 600;
     line-height: 1;
     letter-spacing: -2px;
+    grid-column: 1;
+    grid-row: 3 / span 2;
 }
 
 .eighth img{
