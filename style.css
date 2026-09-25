@@ -67,6 +67,7 @@ div{
     margin-bottom: 12px;
     line-height: 1;
 }
+
 .first>p{
     font-size: 12px;
 }
@@ -113,9 +114,8 @@ div{
 }
 
 .third img{
-    position: relative;
     width: 130px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .fourth{
